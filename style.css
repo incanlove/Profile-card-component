@@ -1,0 +1,110 @@
+body{
+    background: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.circles .c1,
+.circles .c2{
+    position: absolute;
+    z-index: -1;   
+    width: 800px;
+    height: auto;
+}
+
+.circles .c1{
+    top: -360px;
+    left: -275px;
+}
+
+.circles .c2{
+    bottom: -333px;
+    right: -275px;
+}
+
+.circle{
+    text-align: center;
+    margin: -60px auto;
+    border: 5px solid white;
+}
+
+.hero{
+    width: 95px;
+    height: 95px;
+    border-radius: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    overflow: hidden;
+
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.topimg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+h1{
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+span{
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    margin-top: 0%;
+}
+
+.mid{
+    margin: 70px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.stat{
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.statDis{
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+ul{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
